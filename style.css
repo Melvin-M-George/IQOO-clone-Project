@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+
+.main{
+    height: 750px;
+}
+.pages{
+    display: flex;
+    max-width: 25vw;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    right: 40px;
+    bottom: 0px;
+    gap: 40px;
+    z-index: 30;
+}
+.pages span{
+    font-family: languageFont, AvenirNext, "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, MingLiu, sans-serif, WebRupee, ZAWGYI-ONE;
+    font-weight: 400;
+    font-size: 14px;
+}
+.pages span:hover{
+    color: #F0B31C;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px auto;
+}
+.search img{
+    width: 30px;
+}
+.logo{
+    width: 100px;
+    z-index: 20;
+}
+.navigation{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 20;
+}
+.img{
+    height: 750px;  
+}
+.img img{
+    width: 100%;
+}
+.section1{
+    width: 100%;
+    height: 200vw;
+    background-color: #F5F7FA;
+}
+.section1 > .second{
+    width: 87%;
+    margin: auto;
+    height: 39vw;
+    background-color: #F5F7FA;
+    position: relative;
+    top: 90px;
+    border-radius: 40px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.second img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.second img:hover{
+    transform: scale(110%);
+    
+}
+
+.section1 > .third{
+    width: 87%;
+    margin: auto;
+    height: 39vw;
+    background-color: #F5F7FA;
+    position: relative;
+    top: 130px;
+    border-radius: 40px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.third img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.third img:hover{
+    transform: scale(110%);
+    
+}
+
+
+.para1 img{
+    position: relative;
+    bottom: 370px;
+    left: 174px;
+    width: 74px;
+    z-index: 20;
+}
+.para1 .mid{
+    color: white;
+    position: absolute;
+    top: 285px;
+    left: 170px;
+    font-size: 1.75vw;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee", "ZAWGYI-ONE";
+    font-weight: 400;
+}
+.para1 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 250px;
+    left: 90px;
+    font-size: 1.25vw;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee", "ZAWGYI-ONE";
+    z-index: 20;
+    transition: all .5s ease-out;
+}
+
+.para1 a:hover{
+    transform: scale(120%);
+    color: #F0B31C;
+}
+.icon{
+    width: 39px;
+    height: 24px;
+    border-radius: 17px;
+    position: relative;
+    bottom: 279px;
+    left: 278px;
+    z-index: 20;
+    border: 2px solid white;
+}
+.icon i{
+        top: 3px;
+    color: #ffffff;
+    position: relative;
+    left: 14px;
+}
+
+.last img{
+    width: 360px;
+    position: relative;
+    bottom: 372px;
+    left: 135px;
+}
+.third span{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 300px;
+    left: 134px;
+    font-size: 1.25vw;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee", "ZAWGYI-ONE";
+}
+
+.third .icon{
+    width: 39px;
+    height: 24px;
+    border-radius: 17px;
+    position: relative;
+    bottom: 327px;
+    left: 245px;
+    z-index: 20;
+    border: 2px solid rgb(0, 0, 0);
+}
