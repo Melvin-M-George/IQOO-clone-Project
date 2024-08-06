@@ -184,8 +184,39 @@ nav{
 }
 
 .foot{
-    background-color: rgb(196, 234, 121);
+    background-color: #242933;
     width: 100%;
     height: 37vw;
     margin-top: 84px;
+
+}
+.listelements li{
+    list-style: none;
+}
+.listelements{
+    display: flex;
+    justify-content: left;
+    padding-left: 97px;
+    gap: 38px;
+}
+li{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: languageFont, AvenirNext, "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, MingLiu, sans-serif, WebRupee, ZAWGYI-ONE;
+    line-height: 18px;
+    margin: 20px;
+    color: #8a8f99;
+}
+
+.heading{
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    padding-bottom: 18px;
+    padding-top: 55px;
+}
+.item:hover{
+    color: #F0B31C;
+    transition: 0.2s ease-in;
+    
 }
