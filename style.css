@@ -186,7 +186,7 @@ nav{
 .foot{
     background-color: #242933;
     width: 100%;
-    height: 37vw;
+    height: 36vw;
     margin-top: 84px;
 
 }
@@ -196,8 +196,8 @@ nav{
 .listelements{
     display: flex;
     justify-content: left;
-    padding-left: 97px;
-    gap: 38px;
+    padding-left: 79px;
+    gap: 7px;
 }
 li{
     font-weight: 400;
@@ -218,5 +218,23 @@ li{
 .item:hover{
     color: #F0B31C;
     transition: 0.2s ease-in;
+    cursor: pointer;
+    
+}
+.bottom-box{
+    background-color: #242933;
+    margin-top: 35px;
+    height: 84px;
+    width: 100%;
+}
+.footer-bottom{
+    height: 98%;
+    width: 87%;
+    background-color: #242933;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    border-top: 1px solid #8a8f9989;
+
     
 }
