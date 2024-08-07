@@ -6,8 +6,17 @@ body{
     background-color: white;
 }
 
+
+.navigation:hover{
+    fill: #F0B31C;
+}
+
 .main{
     height: 135vw;
+}
+
+.vep-pc-logo-path:hover{
+    fill: #F0B31C;
 }
 .pages{
     display: flex;
@@ -37,6 +46,7 @@ nav{
     align-items: center;
     margin: 24px auto;
 }
+
 .search img{
     width: 30px;
 }
