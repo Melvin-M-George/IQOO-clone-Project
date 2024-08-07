@@ -7,17 +7,11 @@ body{
 }
 
 
-.navigation:hover{
-    fill: #F0B31C;
-}
-
 .main{
     height: 135vw;
 }
 
-.vep-pc-logo-path:hover{
-    fill: #F0B31C;
-}
+
 .pages{
     display: flex;
     max-width: 25vw;
