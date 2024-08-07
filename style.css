@@ -78,16 +78,69 @@ nav{
     object-fit: contain;
     overflow: hidden;
 }
+.second{
+    display: flex;
+    position: relative;
+}
 
-.second img{
+.second-img{
     width: 100%;
     height: 100%;
     transition: 0.5s ease-in;
     cursor: pointer;
 }
-.second img:hover{
+.second-img:hover{
     transform: scale(110%);
     
+}
+.second-img img{
+    height: 100%;
+}
+.second-words{
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
+}
+
+.learnmorefirst{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 6px;
+    padding-top: 35px;
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee", "ZAWGYI-ONE";
+}
+.last-svg img{
+    width: 75px;
+}
+.mid{
+    font-size: 27px;
+    font-weight: 55000;
+    font-family: languageFont, AvenirNext, "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, MingLiu, sans-serif, WebRupee, ZAWGYI-ONE;    
+
+}
+.learnmorefirst a{
+    text-decoration: none;
+    color: #fff;
+}
+.arrowfirst{
+    font-size: 15px;
+    margin-top: 4px;
+}
+.arrowfirst:hover{
+    color: #F0B31C;
+    cursor: pointer;
+}
+.learnmorefirst:hover{
+    color: #F0B31C;
+    font-size: 1.45vw;
 }
 
 
