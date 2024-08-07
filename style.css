@@ -10,8 +10,6 @@ body{
 .main{
     height: 135vw;
 }
-
-
 .pages{
     display: flex;
     max-width: 25vw;
