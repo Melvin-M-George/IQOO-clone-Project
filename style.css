@@ -58,8 +58,14 @@ nav{
 }
 .section1{
     width: 100%;
-    height: 94vw;
+    height: 45vw;
     background-color: #F5F7FA;
+}
+.section2{
+    width: 100%;
+    height: 45vw;
+    background-color: #F5F7FA;
+    position: relative;
 }
 .section1 > .second{
     width: 87%;
@@ -84,27 +90,34 @@ nav{
     
 }
 
-.section1 > .third{
+
+
+
+
+
+
+
+.section2 > .third{
     width: 87%;
     margin: auto;
     height: 39vw;
     background-color: #F5F7FA;
     position: relative;
-    top: 130px;
+    top: 45px;
     border-radius: 40px;
     object-fit: contain;
     overflow: hidden;
 }
-.third img{
-    width: 100%;
-    height: 100%;
-    transition: 0.5s ease-in;
-    cursor: pointer;
+.third-words{
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 50px;
 }
-.third img:hover{
-    transform: scale(110%);
-    
-}
+
 
 
 .para1 img{
@@ -135,59 +148,61 @@ nav{
     transition: all .5s ease-out;
 }
 
-.para1 a:hover{
-    transform: scale(120%);
-    color: #F0B31C;
-}
-.icon{
-    width: 39px;
-    height: 24px;
-    border-radius: 17px;
-    position: relative;
-    bottom: 279px;
-    left: 278px;
-    z-index: 20;
-    border: 2px solid white;
-}
-.icon i{
-        top: 3px;
-    color: #ffffff;
-    position: relative;
-    left: 14px;
-}
-
-.last img{
-    width: 360px;
-    position: relative;
-    bottom: 372px;
-    left: 135px;
-}
-.third span{
+.learn{
+    transition: 0.3s;
     text-decoration: none;
-    color: black;
-    position: relative;
-    bottom: 300px;
-    left: 134px;
+}
+.learnmore{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
     font-size: 1.25vw;
     font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee", "ZAWGYI-ONE";
 }
-
-.third .icon{
-    width: 39px;
-    height: 24px;
-    border-radius: 17px;
-    position: relative;
-    bottom: 327px;
-    left: 245px;
-    z-index: 20;
-    border: 2px solid rgb(0, 0, 0);
+.learnmore a{
+    text-decoration: none;
+    color: black;
 }
+.last img{
+    width: 360px;
+} 
+.arrow{
+    font-size: 15px;
+    margin-top: 4px;
+}
+.learnmore:hover{
+    color: #F0B31C;
+    font-size: 1.45vw;
+}
+.learn:hover{
+    color: #F0B31C;
+}
+.third-img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.third-img img{
+    height: 100%;
+}
+.third-img:hover{
+    transform: scale(110%);
+}
+.learnmore .arrow i:hover{
+    color: #F0B31C;
+    cursor: pointer;
+}
+
+
+
 
 .foot{
     background-color: #242933;
     width: 100%;
     height: 36vw;
-    margin-top: 84px;
+    margin-top: 49px;
 
 }
 .listelements li{
@@ -228,6 +243,9 @@ li{
     width: 100%;
 }
 .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 98%;
     width: 87%;
     background-color: #242933;
@@ -237,4 +255,33 @@ li{
     border-top: 1px solid #8a8f9989;
 
     
+}
+.para a{
+    color: #fff;
+    text-decoration: none;
+    color: #8a8f99;
+    font-weight: 500;
+}
+.para{
+    display: flex;
+    gap: 10px;
+    font-family: languageFont, AvenirNext, "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, MingLiu, sans-serif, WebRupee, ZAWGYI-ONE;
+    font-weight: 500;
+    font-size: 12px;
+    color: #8a8f99;
+}
+.region a{
+    font-size: 14px;
+    font-family: languageFont, AvenirNext, "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, MingLiu, sans-serif, WebRupee, ZAWGYI-ONE;
+    font-weight: 500;
+    font-size: 12px;
+    color: #8a8f99;
+    text-decoration: none;
+}
+.region{
+    display: flex;
+    gap: 5px;
+}
+.fa-globe{
+    font-size: 20px;
 }
